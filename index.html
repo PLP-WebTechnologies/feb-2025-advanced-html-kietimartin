@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Martin Kieti">
+    <meta name="Description" content="A sign up form for users to enter their bio-data.">
+    <title>Sign-up Page</title>
+</head>
+<body>
+    <!-- Header and navigation sections -->
+    <header>
+        <h1>SIGN UP</h1>
+
+        <nav>
+            <a href="#">Nav link 1</a>
+            <a href="#">Nav link 2</a>
+            <a href="#">Nav link 3</a>
+        </nav>
+    </header>
+
+    <!-- content for the main body and forms -->
+    <main>
+
+        <!-- an ordered list of benefits of joinig our subscription -->
+        <h2>Why choose premium?</h2>
+        <ol type="i">
+            <li>Up to date content</li>
+            <li>Premium membership perks</li>
+            <li>AD free service</li>
+            <li>1080p display</li>
+        </ol>
+
+        <!-- inputing an image -->
+        <img src="https://images.pexels.com/photos/30640610/pexels-photo-30640610/free-photo-of-spectacular-fireworks-over-a-pagoda-in-tam-chuc-vietnam.jpeg?auto=compress&cs=tinysrgb&w=600&lazy=load" alt="a building lit up by lights with fireworks in the sky" width="200">
+        <!-- embedding a video into the website from local storage -->
+        <video src="Adele - Hello (Official Music Video).mp4" autoplay controls loop width="300"></video>
+        <!-- audio embedding -->
+         <audio src="#"> not available</audio>
+        <!-- creating a form to take details of people age,names,gender and dates of birth -->
+
+        <!-- table of contacts -->
+        <table style="border: solid;">
+            <!-- header section of the table -->
+            <thead>
+                <caption><h2>Table of Contacts</h2></caption>
+                <tr>
+                    <th>Names</th>
+                    <th>Address</th>
+                    <th>Mobile number</th>
+                    <th>email</th>
+                </tr>
+            </thead>
+            <!-- body section of the table -->
+            <tbody>
+                <tr>
+                    <td>Martin Kieti</td>
+                    <td>Ruiru,Kiambu</td>
+                    <td>070000000</td>
+                    <td>martinkieti6@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Martin Kieti</td>
+                    <td>Ruiru,Kiambu</td>
+                    <td>070000000</td>
+                    <td>martinkieti6@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Martin Kieti</td>
+                    <td>Ruiru,Kiambu</td>
+                    <td>070000000</td>
+                    <td>martinkieti6@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Martin Kieti</td>
+                    <td>Ruiru,Kiambu</td>
+                    <td>070000000</td>
+                    <td>martinkieti6@gmail.com</td>
+                </tr>
+                <tr>
+                    <td>Martin Kieti</td>
+                    <td>Ruiru,Kiambu</td>
+                    <td>070000000</td>
+                    <td>martinkieti6@gmail.com</td>
+                </tr>
+            </tbody>
+        </table>
+
+        <br>
+        <form action="" method="get">
+            <!-- using a fieldset to group personak data together -->
+            <fieldset id="personal information">
+                <legend>Personal information</legend>
+
+                <!-- Using radio for the titles part -->
+                <label for="title"><b>Title</b></label>
+
+                <!-- options for the radio section -->
+                <input type="radio" name="title" id="Mr">
+                <label for="Mr">Mr.</label>
+
+                <input type="radio" name="title" id="Ms">
+                <label for="Ms">Ms.</label>
+
+                <input type="radio" name="title" id="Mrs">
+                <label for="Mrs">Mrs.</label>
+                
+                <br>
+                <hr>
+
+                <!-- using text boxes for first and last names -->
+                <label for="fname">First name:
+                    <input type="text" name="fname" id="fname" placeholder="Martin" required>
+                </label>
+                <label for="legend">Surname:
+                    <input type="text" name="lname" id="lname" placeholder="Kieti" required>
+                </label>
+                
+                <br>
+                <hr>
+                
+                <label for="DOB">Date Of Birth</label>
+                <input type="date" name="DOB" value="DOB" id="DOB">
+                <!-- using a dropdown menu for the gender selection -->
+                <label for="gender">Gender</label>
+                <select name="gender" id="gender">
+                    <option value="male">Male</option>
+                    <option value="female">Female</option>
+                </select>
+
+                <label for="age">Age:</label>
+                <input type="number" name="age" id="age">
+                
+                <br>
+                <hr>
+
+                <button id="submit">Submit</button>
+                <button id="reset">Reset</button>
+            </fieldset>
+        </form>
+    </main>
+
+    <footer>
+        <p>Contact me @ <em>martinkieti6@gmail.com</em></p>
+    </footer>
+</body>
+</html>
